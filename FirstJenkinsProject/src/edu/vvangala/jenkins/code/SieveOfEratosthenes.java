@@ -14,13 +14,13 @@ public class SieveOfEratosthenes {
 	public static void main(String[] args) {
 		String A;
 		int N;
-	//	Scanner sc= new Scanner(System.in);
-	//	System.out.print("enter the prime number ceiling: ");
-	//	N = sc.nextInt();
-	// sc.close();
-	A= args[0];
-		N = 50;
-	N= Integer.parseInt(A);
+		Scanner sc= new Scanner(System.in);
+		System.out.print("enter the prime number ceiling: ");
+		N = sc.nextInt();
+	 sc.close();
+	//A= args[0];
+	//	N = 50;
+	//N= Integer.parseInt(A);
 		//
 		boolean[] isPrime = new boolean[N];
 		isPrime[0] = false;
