@@ -13,13 +13,15 @@ public class SieveOfEratosthenes {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String A;
+		//String A;
+		String A = System.getProperty("A");
 		int N;
 		//Scanner sc= new Scanner(System.in);
 		//System.out.print("Please Enter a postive integer greater than 0: ");
 		//N = sc.nextInt();
 	// sc.close();
-	A= args[0];
+	//A= args[0];
+		
 	//	N = 50;
 	N= Integer.parseInt(A);
 		//
