@@ -15,7 +15,7 @@ public class SieveOfEratosthenes {
 		String A;
 		int N;
 		Scanner sc= new Scanner(System.in);
-		System.out.print("enter the prime number ceiling: ");
+		System.out.print("Please Enter a postive integer greater than 0: ");
 		N = sc.nextInt();
 	 sc.close();
 	//A= args[0];
